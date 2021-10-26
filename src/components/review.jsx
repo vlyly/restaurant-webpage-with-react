@@ -7,7 +7,7 @@ class Review extends Component {
     return (
       <li>
         <div className="comment-box">
-          <img className="avatar" src="../img/user02.png" alt="user" />
+          <img className="avatar" src="./img/user02.png" alt="user" />
           <div className="comment">
             <strong className="comment-user-name">{this.props.name}</strong>
             <p className="time">{this.props.date}</p>

@@ -8,7 +8,7 @@ class Introduce extends PureComponent {
         <div className="contents">
           <img
             className="title-img"
-            src="../img/restaurant.jpg"
+            src="./img/restaurant.jpg"
             alt="restaurant"
           />
           <div className="info">
