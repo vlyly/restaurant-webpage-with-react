@@ -16,6 +16,15 @@
   margin: 50px auto;
 }
 
+.restaurant-contact {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.restaurant-contact > p > i {
+  margin-right: 5px;
+}
+
 .restaurant-name {
   font-size: 24px;
   line-height: 1.1em;
@@ -33,7 +42,6 @@
 }
 
 .insta {
-  margin-bottom: 20px;
   transition: color 200ms;
 }
 
