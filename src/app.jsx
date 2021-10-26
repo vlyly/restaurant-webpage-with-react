@@ -15,6 +15,7 @@ class App extends Component {
     const newReview = {
       id: new Date().getTime(),
       name: newUser,
+      date: new Date().toLocaleTimeString(),
       text: newComment,
       recommand: 0,
     };
@@ -36,6 +37,7 @@ class App extends Component {
               <Review
                 id={review.id}
                 name={review.name}
+                date={review.date}
                 text={review.text}
                 recommand={review.recommand}
               />
