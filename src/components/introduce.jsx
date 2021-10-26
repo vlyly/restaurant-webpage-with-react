@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import titleImage from "../img/restaurant.jpg";
 
 class Introduce extends PureComponent {
   render() {
@@ -6,11 +7,7 @@ class Introduce extends PureComponent {
     return (
       <div className="container">
         <div className="contents">
-          <img
-            className="title-img"
-            src="./img/restaurant.jpg"
-            alt="restaurant"
-          />
+          <img className="title-img" src={titleImage} alt="restaurant" />
           <div className="info">
             <h3 className="restaurant-name">포레스트(For Rest)</h3>
             <p className="restaurant-comment">당신의 휴식을 곁들인 식사</p>

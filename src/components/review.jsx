@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import userImage from "../img/user02.png";
 
 class Review extends Component {
   render() {
@@ -7,7 +8,7 @@ class Review extends Component {
     return (
       <li>
         <div className="comment-box">
-          <img className="avatar" src="./img/user02.png" alt="user" />
+          <img className="avatar" src={userImage} alt="user" />
           <div className="comment">
             <strong className="comment-user-name">{this.props.name}</strong>
             <p className="time">{this.props.date}</p>
