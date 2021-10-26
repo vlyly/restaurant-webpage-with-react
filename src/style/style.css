@@ -1,0 +1,126 @@
+.contents {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.title-img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.restaurant-name {
+  font-size: 24px;
+  line-height: 1.1em;
+}
+
+.restaurant-comment {
+  margin-bottom: 20px;
+  color: rgb(102, 102, 102);
+}
+
+.phone,
+.location,
+.insta {
+  line-height: 1.2em;
+}
+
+.insta {
+  margin-bottom: 20px;
+  transition: color 200ms;
+}
+
+.insta:hover {
+  color: #8fbc8f;
+}
+
+.hours {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.submit-review {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto 20px auto;
+}
+
+.user-name,
+.user-commnet {
+  padding: 5px;
+  border: 1px solid #ededed;
+  font-size: 13px;
+}
+
+.user-name {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.user-commnet {
+  width: 500px;
+  height: 100px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  resize: none;
+}
+
+.submit-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ddd2be;
+  transition: background-color 200ms;
+}
+
+.submit-button:hover {
+  color: gray;
+  background-color: #ebe6de;
+}
+
+.comment-box {
+  display: flex;
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.avatar {
+  position: relative;
+  top: 5px;
+  width: 36px;
+  height: 36px;
+}
+
+.comment {
+  margin-left: 20px;
+}
+
+.comment-user-name {
+  font-size: 13px;
+}
+
+.time {
+  color: #808080;
+  font-size: 11px;
+}
+
+.text {
+  margin-top: 5px;
+  font-size: 13px;
+  word-break: keep-all;
+}
