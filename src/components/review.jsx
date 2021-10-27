@@ -2,12 +2,13 @@ import React, { PureComponent } from "react";
 import userImage from "../img/user02.png";
 
 class Review extends PureComponent {
+  likeButtonRef = React.createRef();
   likeIncrese = () => {
     this.props.onClick(this.props.review);
   };
 
   render() {
-    console.log("review");
+    const redHeart = { color: this.props.clicked };
 
     return (
       <li>
@@ -19,8 +20,8 @@ class Review extends PureComponent {
             <p className="text">{this.props.text}</p>
           </div>
           <div className="like">
-            <button className="like-button">
-              <i className="far fa-heart" onClick={this.likeIncrese}></i>
+            <button className="like-button" onClick={this.likeIncrese}>
+              <i className="fas fa-heart" style={redHeart}></i>
             </button>
             <p className="like-count">{this.props.like}</p>
           </div>

@@ -98,9 +98,17 @@
   background-color: #ebe6de;
 }
 
+.review-list {
+  width: 700px;
+  height: 380px;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+
 .comment-box {
   display: flex;
   width: 600px;
+  height: 100px;
   margin: 20px auto;
   padding: 20px;
   background-color: #f7f7f7;
@@ -142,6 +150,7 @@
 
 .like-button {
   font-size: 18px;
+  color: #e0e5e7;
 }
 
 .like-count {

@@ -44,7 +44,7 @@ class App extends Component {
         <div className="wrapper">
           <Introduce />
           <ReviewForm onPush={this.handleInput} />
-          <ul>
+          <ul className="review-list">
             {this.state.reviews.map((review) => (
               <Review
                 review={review}
