@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/review-board-with-react/static/css/main.fba4ad5e.chunk.css",
-    "main.js": "/review-board-with-react/static/js/main.2fc5eaf2.chunk.js",
-    "main.js.map": "/review-board-with-react/static/js/main.2fc5eaf2.chunk.js.map",
+    "main.css": "/review-board-with-react/static/css/main.0e77889c.chunk.css",
+    "main.js": "/review-board-with-react/static/js/main.fc1b5d43.chunk.js",
+    "main.js.map": "/review-board-with-react/static/js/main.fc1b5d43.chunk.js.map",
     "runtime-main.js": "/review-board-with-react/static/js/runtime-main.07d8d1f7.js",
     "runtime-main.js.map": "/review-board-with-react/static/js/runtime-main.07d8d1f7.js.map",
     "static/js/2.3eff44a9.chunk.js": "/review-board-with-react/static/js/2.3eff44a9.chunk.js",
     "static/js/2.3eff44a9.chunk.js.map": "/review-board-with-react/static/js/2.3eff44a9.chunk.js.map",
     "index.html": "/review-board-with-react/index.html",
-    "static/css/main.fba4ad5e.chunk.css.map": "/review-board-with-react/static/css/main.fba4ad5e.chunk.css.map",
+    "static/css/main.0e77889c.chunk.css.map": "/review-board-with-react/static/css/main.0e77889c.chunk.css.map",
     "static/js/2.3eff44a9.chunk.js.LICENSE.txt": "/review-board-with-react/static/js/2.3eff44a9.chunk.js.LICENSE.txt",
     "static/media/restaurant.1db59803.jpg": "/review-board-with-react/static/media/restaurant.1db59803.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.07d8d1f7.js",
     "static/js/2.3eff44a9.chunk.js",
-    "static/css/main.fba4ad5e.chunk.css",
-    "static/js/main.2fc5eaf2.chunk.js"
+    "static/css/main.0e77889c.chunk.css",
+    "static/js/main.fc1b5d43.chunk.js"
   ]
 }
