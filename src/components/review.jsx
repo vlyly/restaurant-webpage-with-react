@@ -11,7 +11,7 @@ class Review extends PureComponent {
     const redHeart = { color: this.props.clicked };
 
     return (
-      <li>
+      <li key={this.props.id}>
         <div className="comment-box">
           <img className="avatar" src={userImage} alt="user" />
           <div className="comment">
