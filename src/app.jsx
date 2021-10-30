@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/main">
+        <Route path={["/", "/main"]}>
           <Main />
         </Route>
         <Route path="/reservation">
