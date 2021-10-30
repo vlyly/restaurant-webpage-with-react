@@ -1,0 +1,61 @@
+label {
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.reservation-title {
+  margin: 50px 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.reservation-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.reservation-form > div:not(:last-of-type) {
+  margin-right: 30px;
+}
+
+.reservation-name {
+  width: 100px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.reservation-name,
+.reservation-time,
+.visit-people {
+  height: 1.8em;
+  font-size: 14px;
+}
+
+.reservation-time,
+.visit-people {
+  width: 80px;
+  border: 1px solid #d3d3d3;
+}
+
+.reservation-submit-button {
+  width: 100px;
+  height: 40px;
+  margin: 40px 100px 0 100px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #ddd2be;
+  transition: background-color 200ms;
+}
+
+.reservation-submit-button:hover {
+  color: #808080;
+  background-color: #ebe6de;
+}
