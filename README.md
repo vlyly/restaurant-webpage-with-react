@@ -22,8 +22,8 @@ l. 목표<br>
  <h4>Main</h4>
  <br>
   
-![FireShot Capture 034 - React App - vlyly github io](https://user-images.githubusercontent.com/69294741/139794094-ff3c84fe-994b-4b8f-ae0d-07811c0d1e85.png)
- 
+![FireShot Capture 036 - React App - localhost](https://user-images.githubusercontent.com/69294741/140446646-3619307f-b041-4f56-ad32-5834b34562ff.png)
+
  <br>
  <h4>Reservation</h4>
  <br>
