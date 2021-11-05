@@ -29,7 +29,7 @@ class Main extends Component {
         id: 3,
         name: "효진초이",
         date: "오후 4:50:49",
-        text: "고생만 D지게 하고 작렬히 전사...",
+        text: "고생만 죽어라 하고 작렬히 전사...",
         like: 28,
         clicked: true,
       },
