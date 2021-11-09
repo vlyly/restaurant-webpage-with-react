@@ -5,15 +5,21 @@ import Reservation from "./components/reservation/reservation";
 function App() {
   return (
     <BrowserRouter>
-      {/* <navigation>
-        <Link to="/">main</Link>
-        <Link to="/reservation">reservation</Link>
-      </navigation> */}
+      <nav>
+        <Link to="/restaurant-webpage-with-react/main">main</Link>
+        <Link to="/restaurant-webpage-with-react/reservation">reservation</Link>
+      </nav>
       <Switch>
-        <Route path={["/", "/main"]} exact={true}>
+        <Route
+          path={[
+            "/restaurant-webpage-with-react",
+            "/restaurant-webpage-with-react/main",
+          ]}
+          exact
+        >
           <Main />
         </Route>
-        <Route path="/reservation" exact={true}>
+        <Route path="/restaurant-webpage-with-react/reservation">
           <Reservation />
         </Route>
       </Switch>
