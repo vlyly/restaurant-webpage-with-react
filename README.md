@@ -1,5 +1,5 @@
 # <h2>☕레스토랑 홈페이지☕</h2>
-React를 이용해 레스토랑 홈페이지를 만들어보기<br>
+React를 이용해 레스토랑 홈페이지를 만들어보기<strong>(Internet Explorer 미지원)</strong><br>
 
 <h3>목차</h3>
 l. 목표<br>
